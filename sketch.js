@@ -99,9 +99,9 @@ function draw() {
     trex.velocityY=(0);
     trex.changeAnimation(trex_collided);
     gameOver.visible=true;
-    restart.visible=true;
+    reStart.visible=true;
     
-    if(mousePressedOver(restart)){
+    if(mousePressedOver(reStart)){
          reset();
     }
   }
@@ -177,5 +177,5 @@ function reset(){
   cloudsGroup.destroyEach();
   obstaclesGroup.destroyEach();
   gameOver.visible=false;
-  restart.visible=false;
+  reStart.visible=false;
 }
