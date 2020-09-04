@@ -178,4 +178,5 @@ function reset(){
   obstaclesGroup.destroyEach();
   gameOver.visible=false;
   restart.visible=false;
+  ground.velocity=-4;
 }
